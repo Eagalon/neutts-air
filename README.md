@@ -5,7 +5,7 @@ This is a simple web interface for NueTTS air model. I simply added gradio inter
 ## Updates
 0.1 Added sentence rendering support to convert longer text input into audio. it works great on my end from my brief testing.
 
-##how to run
+## How to run
 
 the basic steps are listed below,  but to have a gradio interface, after you have followed the steps listed in the original repo, run:
 ```
