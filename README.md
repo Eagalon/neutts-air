@@ -1,8 +1,8 @@
-#NUE TTS AIR Gradio wrapper
+# NUE TTS AIR Gradio wrapper
 
 This is a simple web interface for NueTTS air model. I simply added gradio interface  on the existing backend.
 
-##Updates
+## Updates
 0.1 Added sentence rendering support to convert longer text input into audio. it works great on my end from my brief testing.
 
 ##how to run
