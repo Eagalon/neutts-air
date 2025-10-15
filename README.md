@@ -1,3 +1,22 @@
+#NUE TTS AIR Gradio wrapper
+
+This is a simple web interface for NueTTS air model. I simply added gradio interface  on the existing backend.
+
+##Updates
+0.1 Added sentence rendering support to convert longer text input into audio. it works great on my end from my brief testing.
+
+##how to run
+
+the basic steps are listed below,  but to have a gradio interface, after you have followed the steps listed in the original repo, run:
+```
+pip install-r requirements_gradio_webui.txt
+```
+and then 
+```
+python neuttsair_gradio_ui.py
+```
+that's it, it should run fine. just connect to the shown link in the cli with any browser of your choice and the rest should be self explainatory.
+
 # NeuTTS Air ☁️
 
 HuggingFace 🤗: [Model](https://huggingface.co/neuphonic/neutts-air), [Q8 GGUF](https://huggingface.co/neuphonic/neutts-air-q8-gguf), [Q4 GGUF](https://huggingface.co/neuphonic/neutts-air-q4-gguf) [Spaces](https://huggingface.co/spaces/neuphonic/neutts-air)
