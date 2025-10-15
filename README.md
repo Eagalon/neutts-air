@@ -7,7 +7,7 @@ This is a simple web interface for NueTTS air model. I simply added gradio inter
 
 ## How to run
 
-the basic steps are listed below,  but to have a gradio interface, after you have followed the steps listed in the original repo, run:
+the basic steps are listed belowin the getting started section,  but to have a gradio interface, after you have followed the steps listed in the original repo's getting started section, run:
 ```
 pip install-r requirements_gradio_webui.txt
 ```
@@ -17,7 +17,13 @@ python neuttsair_gradio_ui.py
 ```
 that's it, it should run fine. just connect to the shown link in the cli with any browser of your choice and the rest should be self explainatory.
 
+# Original Readme:
+
+
 # NeuTTS Air ☁️
+
+
+
 
 HuggingFace 🤗: [Model](https://huggingface.co/neuphonic/neutts-air), [Q8 GGUF](https://huggingface.co/neuphonic/neutts-air-q8-gguf), [Q4 GGUF](https://huggingface.co/neuphonic/neutts-air-q4-gguf) [Spaces](https://huggingface.co/spaces/neuphonic/neutts-air)
 
